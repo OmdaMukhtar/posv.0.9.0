@@ -1,0 +1,30 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// @import 'node_modules/bootstrap-with-rtl/scss/_rtl.scss';
+// @import url('/node_modules/bootstrap-v4-rtl/dist/css/bootstrap-rtl.min.css');
+// @import url('/node_modules/bootstrap-v4-rtl/dist/css/bootstrap-rtl.css');
+// @import url('/node_modules/bootstrap-rtl/dist/css/bootstrap-rtl.min.css');
+// @import url('/node_modules/bootstrap-rtl/node_modules/bootstrap/dist/css/bootstrap.css');
+// @import 'node_modules/bootstrap-with-rtl/dist/css/bootstrap.rtl.min.css';
+// @import url('/node_modules/bootstrap3-rtl/dist/bootstrap-rtl-min.css');
+// @import url('/node_modules/bootstrap3-rtl/dist/bootstrap-rtl.css');
+
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+#flash-message{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+    z-index: 10;
+}
